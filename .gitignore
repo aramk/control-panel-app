@@ -1,5 +1,6 @@
 node_modules/
 /settings.json
+env.sh
 
 # Compiled source #
 ###################
