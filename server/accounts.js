@@ -1,0 +1,1 @@
+AccountsLocal.config();

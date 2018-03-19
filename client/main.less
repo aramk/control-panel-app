@@ -1,0 +1,47 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  > .main.container {
+    padding: 2rem;
+    padding-top: 4rem;
+  }
+  > .ui.segment.container {
+    max-width: 800px;
+    margin-top: 2rem;
+  }
+}
+
+.home.container {
+  .ui.items .item .button {
+    margin-right: 1rem;
+    width: 150px;
+  }
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  display: block;
+}
+
+.app.logo {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: transparent;
+  &:after {
+    content: 'Control Panel';
+  }
+  .logo;
+}
+
+.login-form .logo {
+  font-size: 30px;
+  min-height: 220px;
+  padding-top: 150px;
+  margin: 0;
+  .app.logo;
+}
